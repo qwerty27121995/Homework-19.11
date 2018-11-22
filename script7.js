@@ -1,0 +1,14 @@
+'use strict';
+var byte = 8;
+var kilobyte = 1024;
+var megabyte = 1024 * 1024;
+var gigabyte = 1024 * 1024 * 1024;
+var result = prompt('Insert the  number');
+var resultBytes= result *  byte;
+var resultKilobytes = result *  kilobyte;
+var resultMegabytes = result *  megabyte;
+var resultGigabytess = result *  gigabyte;
+alert(result + 'This is '+ resultBytes + ' byte');
+alert(result + 'This is '+ resultKilobytes + ' kilobyte');
+alert(result + 'This is  '+resultMegabytes + ' megabyte');
+alert(result + 'This is '+ resultGigabytess + ' gigabyte');
